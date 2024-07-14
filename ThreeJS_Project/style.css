@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+}
+
+canvas {
+    display: block;
+}
+
+#congrats {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+    color: white;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+}
